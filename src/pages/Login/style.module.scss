@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Russo+One&display=swap');
+
+.title{
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.auth{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+    margin-top: 40px;
+    input{
+        border: none;
+        border-bottom: 1px solid #00000057;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 18px;
+        outline: none;
+        transition: .3s ease;
+        &::placeholder{
+            font-size: 18px;
+        }
+        &:focus{
+            border-bottom: 1px solid #000;
+        }
+    }
+    button{
+        align-self: center;
+        font-size: 17px;
+        padding: 10px 30px;
+        background-color: #00000000;
+        border: 2px solid #000;
+        cursor: pointer;
+        transition: .3s ease;
+        border-radius: 5px;
+        &:hover{
+            transform: scale(.98);
+        }
+    }
+}
+
+.forgot-password-text{
+    color: black;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Russo+One&display=swap');
+
+.wrapper {
+    font-family: Roboto;
+
+    h1 {
+        font-weight: 700;
+        margin-top: 50px;
+    }
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    row-gap: 50px;
+    column-gap: 70px;
+}
+
+.item {
+    border: 2px solid black;
+    overflow: hidden;
+
+    .item-img {
+        padding: 10px;
+        width: auto;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .title {
+        font-family: Russo One;
+        font-size: 23px;
+        padding: 10px 0;
+        padding-bottom: 10px;
+        border-top: 2px solid black;
+        padding-left: 20px;
+    }
+
+    .sizes {
+        padding: 10px 0;
+        padding-left: 20px;
+        border-top: 2px solid black;
+
+        .sizes-container {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+            .size {
+                padding: 5px 15px;
+                border: .5px solid #000;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    .buy-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        border-top: 2px solid black;
+        box-sizing: border-box;
+
+        .price {
+            font-family: Russo One;
+            font-size: 27px;
+            margin-left: 20px;
+        }
+
+        .add-to-cart-btn {
+            background-color: #000;
+            border: none;
+            color: white;
+            padding: 10px;
+            font-family: Russo One;
+            font-weight: 400;
+            font-size: 13px;
+            cursor: pointer;
+            transition: .3s ease;
+
+            &:hover {
+                font-size: 13.2px;
+            }
+        }
+    }
+}
+
+.active{
+    background-color: #000;
+    color: #fff;
+}
+
+.alarmed{
+    border: 1px solid rgb(245, 79, 61) !important;
+    animation: alarm ease-in .5s;
+}
+
+@keyframes alarm {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.02);
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: scale(1);
+        transform: rotate(0deg);
+    }
+}
