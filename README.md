@@ -1,24 +1,46 @@
-<img src="https://github.com/StudentNSTU/internet-shop/assets/160150922/2a60c62d-e5dd-41f4-ad31-294812d5b843" />
+# Getting Started with Create React App
 
-**ОТЧЁТ** 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**по лабораторной работе № 4** «SPA-приложение на React» 
+## Available Scripts
 
-**по дисциплине:** «Web-программирование» 
+In the project directory, you can run:
 
-Выполнили:
+### `npm start`
 
-студенты группы АВТ-114   Костырко Н.В. Большаков М.В. Шульгин Д.А. 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Скриншот главной страницы:
-<img src="https://github.com/StudentNSTU/internet-shop/assets/160150922/8a6462a1-49c5-4b68-b608-64ba1b3ac249" />
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### Скриншот страницы «Корзина»:
-<img src="https://github.com/StudentNSTU/internet-shop/assets/160150922/3992fda3-a6fb-48d6-8844-3d101b75e833" />
+### `npm test`
 
-### Скриншот страницы входа:
-<img src="https://github.com/StudentNSTU/internet-shop/assets/160150922/da7231df-c460-44bc-be5e-a6298736f779" />
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## ПОЛНЫЙ ОТЧЕТ О РАБОТЕ ЛЕЖИТ В РЕПОЗИТОРИИ ПОД НАЗВАНИЕМ "отчет 4 лабораторной"
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
